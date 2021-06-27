@@ -1,0 +1,50 @@
+/*GENERAL */
+html,body {
+    font-family: Raleway;
+}
+.flexCentre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ .flexAround {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+ }   
+ .flexBetween {
+     display: flex; 
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+ }
+.decorationNone {
+    text-decoration: none;
+}
+.texteGras {
+    font-weight: bold;
+}
+/* NAV*/
+
+ .sizeLiens {
+    width: 45%;
+ }
+ .colorLien13 {
+    color: blue;
+ }
+ .sizeLien {
+     width: 140px;
+     height: 99px;
+ }
+ .colorLien2 {
+    color: black;
+ }
+.bordureNav {
+    border: 1px solid blue; 
+}
+
+.marglogo {
+    margin-bottom: 10%;
+}
