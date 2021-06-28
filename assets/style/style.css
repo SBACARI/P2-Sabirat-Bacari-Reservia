@@ -46,5 +46,10 @@ html,body {
 }
 
 .marglogo {
-    margin-bottom: 10%;
+    margin-bottom: 7px;
+}
+/*HEADER*/
+.bordureSearch{
+    width: 400px;
+    border-radius: 10px;
 }
