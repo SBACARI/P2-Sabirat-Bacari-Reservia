@@ -176,24 +176,34 @@ input {
 	line-height: 1.15;
 	padding: 1rem 1.25rem;
 }
-#filter {
+#filters{
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1.7rem;
+  margin-top: 2rem;
+  align-items: center;
 }
-#filter h2 {
+#filters h2 {
 	margin-right: 1.7rem;
-	margin-top: inherit;
+	
 }
 .filter{
 	margin-right: 1.7rem;
 	font-weight: bold;
+	display: flex;
+	flex-wrap: wrap;
 }
-.filter p{
+.single-filter{
 	border: 1px solid #ddd;
 	border-radius: 2rem;
 	padding: 0 10px 0 0;
+	align-items: center;
+	height: 50px;
 }
+.single-filter span{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 .filter i {
 	background-color: #E0E8F4;
 	border-radius: 100%;
@@ -205,11 +215,12 @@ input {
     display: flex;
 	margin: 1rem 0;
 }
-#resultat i.fas.fa-info {
-    padding: 0.9rem 1.3rem;
+.resultat i{
+    padding: 5px  9px;
     border: 1px solid #ddd;
     border-radius: 50%;
 	color: #0065FC;
+	margin-right: 15px;
 }
 #resultat p {
     padding: 0.9rem 1.3rem;
