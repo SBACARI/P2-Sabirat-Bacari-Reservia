@@ -33,6 +33,36 @@ section {
 	grid-template-rows: 1fr; 
 	gap: 5px 5px; 
 }
+.hebergement_block{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 30px;
+}
+.contener_block{
+	flex-direction: column-reverse;
+	display: flex;
+}
+#hebergements{
+	margin: 25px 0px 25px 0px;
+}
+.contener_block_hebergements{
+	background-color: white;
+	padding: 0px 30px 30px 30px;
+}
+.hebergement_contener{
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 30px;
+}
+.afficher_plus{
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+a {
+	margin-bottom: auto;
+	text-decoration: none;
+	color: black
+}
 .hebergement div.mainhebergement{
 	background-color: #ededed;
 	display: grid; 
@@ -49,8 +79,8 @@ section {
 	grid-column: 1/-1;
 }
 .hebergement div.mainhebergement article{
-	background-color: #fff;
-	border-radius: 10px;
+	padding-left: 5px;
+    font-size: 0.9em
 	
 }
 .hebergement div.mainhebergement article figure{
@@ -89,6 +119,22 @@ section {
 	flex: 3;
 	padding-left: 4px;
 }
+.etoile.bleu{
+    color: #0065fc;
+    font-size: small;
+    padding-bottom: 5px;
+}
+ .etoile.blanc
+{
+    color: #f2f2f2;
+}
+.affichage_plus{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-top: 50px;
+}
+
 .wrap {
     display: grid;
     
@@ -226,17 +272,49 @@ input {
     padding: 0.9rem 1.3rem;
 	margin: 0;
 }
+.contenairPopulaire{
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding: 30px;
+}
+.populaireTitre {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.plusPopulaires {
+	display: grid;
+	gap: 30px;
+	}
+.plusPopulaires img {
+	border-radius: 15px 0px 0px 15px;
+	width: 100%;
+	height: 142px;
+	object-fit: cover;
+}
+.textePopulaires {
+	display: grid;
+	grid-template-rows: 0.6fr 0.9fr 0fr;
+	margin-left: 10px;
+	align-items: flex-start;
+	}
+.textePopulaires2 {
+		font-weight: normal;
+		font-size: 0.9em;
+		margin: 0px;
+}
 footer {
-	background-color: #ededed;
+ background-color: #ededed;
 }
 footer .footerContainer{
-	display: flex;
-	width: 90%;
-	margin: 0 auto;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
 }
 footer .footerBlock {
-	flex: 1;
+    flex: 1;
 }
 footer .footerBlock ul{
-	list-style: none;
+    list-style: none;
 }
