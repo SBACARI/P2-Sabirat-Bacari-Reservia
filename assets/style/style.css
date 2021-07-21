@@ -111,8 +111,8 @@ a {
 	flex: 3;
 	padding-left: 4px;
 }
-.etoile.bleu{
-    color: #0065fc;
+.star{
+    background-color: #0065fc;
     font-size: small;
     padding-bottom: 5px;
 }
