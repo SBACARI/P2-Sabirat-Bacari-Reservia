@@ -4,7 +4,15 @@ margin: 0;
 }
 
 img{
+    width: 100%;
 max-width: 100%;
+}
+img:hover {
+    -webkit-box-shadow: 0px 2px 14px -1px #000000; 
+    box-shadow: 0px 2px 14px -1px #000000;
+}
+#logo {
+    max-width: 120px;
 }
 .img1 {
 width: 100%;
@@ -40,6 +48,11 @@ color: #0065FC;
 font-size: large;
 font-weight: bolder;
 }
+
+/*.recherche {
+    width: 90%;
+    margin: 0 auto;
+}*/
 .recherche1{
 font-size: large;
 font-weight: bolder;
@@ -143,6 +156,8 @@ margin-right: 15px;
 }
 
 .hebergement {
+    /*width: 90%;
+    margin: 0 auto;*/
 display: flex; 
 justify-content:row; 
 grid-template-columns: 1fr 1fr 1fr; 
@@ -242,20 +257,63 @@ align-self: flex-end;
 .starGris{
  color: #F2F2F2;
 }
-/* Activités*/
-
+/* Activités
+.activite {
+    width: 90%;
+    margin: 0 auto;
+}*/
 .activite h2.title {
  grid-column: 1/-1;
 }
 .wrap {
 display: grid;  
 grid-template-areas: 
-"h a c d"
-"h b c e" ;
+    "h a c d"
+    "h b c e" ;
 column-gap: 1rem;
 grid-row-gap: 1rem; 
 margin: 0 0 4rem;
 }
+@media (min-width: 1024px) {
+.item:nth-child(1) {
+grid-area: h;
+ }  
+.item:nth-child(2) {
+grid-area: a;   
+}  
+.item:nth-child(3) {
+grid-area: b;
+}  
+.item:nth-child(4) {
+grid-area: c;
+}
+.item:nth-child(5) {
+grid-area: d;
+}
+.item:nth-child(6) {
+grid-area: e;
+}
+
+.item:nth-child(1) img{
+    max-height: 480px;
+     }  
+    .item:nth-child(2) img{
+    max-height: 190px;
+    }  
+    .item:nth-child(3) img{
+    max-height: 190px;
+    }  
+    .item:nth-child(4) img{
+    max-height: 480px;
+    }
+    .item:nth-child(5) img{
+    max-height: 190px;
+    }
+    .item:nth-child(6) img{
+    max-height: 190px;
+    }
+}
+
 .item {
 box-shadow: 0 0 20px #0000002e;
 border-radius: 1rem;
@@ -265,32 +323,10 @@ flex-direction: column;
 text-align: center;
 }
 
-@media (min-width: 1024px) {
-
-    .item:nth-child(1) {
-    grid-area: h;
-    }
-    
-    .item:nth-child(2) {
-    grid-area: a;
-    
-    }
-    
-    .item:nth-child(3) {
-    grid-area: b;
-    }
-    
-    .item:nth-child(4) {
-    grid-area: c;
-    }
-    .item:nth-child(5) {
-    grid-area: d;
-    }
-    .item:nth-child(6) {
-    grid-area: e;
-    }
-    }
-	
+.item a {
+    flex: 1;
+}
+        
 .item a img{
 height: 100%;
 object-fit: cover;
@@ -309,4 +345,20 @@ flex: 1;
 }
 footer .footerBlock ul{
 list-style: none;
+padding-left: 0;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    
 }
