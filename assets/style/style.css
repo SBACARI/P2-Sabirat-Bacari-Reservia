@@ -59,14 +59,12 @@ font-weight: bolder;
     margin: 0 auto;
 }*/
 .recherche1{
-font-size: 1.3em;
-font-weight: bolder;
-letter-spacing: normal;
-margin-bottom: 10px;
-margin-top: 50px;
+font-size: 1.4em;
+font-weight: 700;
+letter-spacing:normal
+margin: 30px 0 0 0;
 }
 .recherche2{
-font-size: small;
 font-weight: normal;
 letter-spacing: normal;
 margin-bottom: 20px;
@@ -152,16 +150,24 @@ margin: -1px 0px -1px -5px;
 color: #0051CB;
 }
 .titre{
- position: relative;
+position: relative;
 font-weight: bold;
 letter-spacing: normal;
 margin-bottom: 10px;
 margin-top: 0;
 }
+.titreA{
+padding-right: 30px;
+font-size: 1.1em;
+}
+
 .titre i{
 position: absolute;
 right: 5px;
-
+}
+.texteP{
+margin-top: 0px;
+margin-bottom: 5px;
 }
 .resultat i{
 padding: 5px  9px;
@@ -388,17 +394,46 @@ padding-left: 0;
 }
     #logo{
         position: absolute;
-        margin: px;
+        margin: 15px;
 }
-    .nav{
+    nav{
         display: flex;
         align-items: baseline;
-        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
         flex-wrap: wrap-reverse;
-        width: 1OO%;
+        width:100%; 
+    }
+    nav ul{
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+        border-bottom: 3px solid #f2f2f2;
+        position: relative;
+    }
+    nav ul .nav-link{
+        width: 50%;
+        margin-top: 15px;
+    }
+    nav ul .nav-link:hover{
+        border-top: none;
+        border-bottom: 2px solid blue
         
     }
+    .sub{
+        position: absolute;
+        right: 0;
+        top: 0px;
+        padding: 0px;
+        }
+        .hebergement div.mainhebergement{
+            grid-auto-columns: 1fr; 
+            grid-template-columns: 1fr; 
+            grid-template-rows: 1fr; 
+            grid-template-areas: 	". "; 
 
+            }
+
+ }
     
 
 /* Medium devices (tablets, 768px and up)*/
