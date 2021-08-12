@@ -432,7 +432,17 @@ padding-left: 0;
             grid-template-areas: 	". "; 
 
             }
-
+        .wrap{
+            display: flex;
+            flex-direction: column;
+        }
+        .item img{
+            height: 420px;
+            max-height: 420px;
+        }
+        footer .footerContainer{
+            flex-direction: column;
+        }
  }
     
 
