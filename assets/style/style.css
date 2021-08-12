@@ -59,11 +59,11 @@ font-weight: bolder;
     margin: 0 auto;
 }*/
 .recherche1{
-font-size: large;
+font-size: 1.3em;
 font-weight: bolder;
 letter-spacing: normal;
 margin-bottom: 10px;
-margin-top: 30px;
+margin-top: 50px;
 }
 .recherche2{
 font-size: small;
@@ -130,14 +130,19 @@ border-radius: 2rem;
 padding: 0 10px 0 0;
 align-items: center;
 height: 50px;
+display: flex;
+   
 }
 .single-filter span{
 margin-left: 10px;
 margin-right: 10px;
+
 }
 .filter-tranformation{
 margin: 7px 20px 7px 0;
 cursor: pointer;
+
+
 }
 .filter i {
 background-color: #E0E8F4;
@@ -271,6 +276,16 @@ font-size: small;
 .starGris{
  color: #F2F2F2;
 }
+.texteH{
+font-size: 1em;
+margin-top: 5px;
+margin-bottom: 0px;
+}
+.texteP{
+margin-top: 0px;
+margin-bottom: 5px;   
+}
+
 /* Activités
 .activite {
     width: 90%;
@@ -364,14 +379,38 @@ padding-left: 0;
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {
-
+    .hebergement{
+        flex-direction: column-reverse;
+    
+    }
+    .hebergement2 img{
+        width: 260px;
 }
+    #logo{
+        position: absolute;
+        margin: px;
+}
+    .nav{
+        display: flex;
+        align-items: baseline;
+        -ms-flex-direction: column-reverse;
+        flex-wrap: wrap-reverse;
+        width: 1OO%;
+        
+    }
+
+    
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and ( max-width: 991px)  {
-
-}
-
+    .hebergement{
+        flex-direction: column-reverse;
+    
+    }
+    .hebergement2 img{
+        width: 260px;
+}   
+    
 /* Large devices (desktops, 992px and up)*/
 @media screen and (min-width: 992px) and  ( max-width: 1230px) {
     .hebergement{
