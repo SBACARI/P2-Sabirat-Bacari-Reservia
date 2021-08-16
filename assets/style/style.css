@@ -206,7 +206,7 @@ grid-template-rows: 1fr;
 gap:  20px 20px; 
 grid-template-areas: 	". . ."; 
 border-radius: 10px;
-padding: 10px
+padding: 10px;
 }
 .hebergement div.mainhebergement .titre{
 background-color: #f2f2f2;
@@ -218,6 +218,7 @@ display: grid;
 background-color: #fff;
 border-radius: 10px;
 cursor: pointer;
+box-shadow: 10px 5px 5px;
 }
 .hebergement div.mainhebergement article figure{	
 margin: 5px;
@@ -226,8 +227,11 @@ margin: 5px;
 justify-content: center;
 border-radius: 15px 15px 0px 0px;
 width: 100%;
-height: 115px;
+height: 110px;
 object-fit: cover;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+overflow: hidden;
 }	
 .hebegement-marseille{
 background-color: #ededed;
@@ -276,16 +280,15 @@ bottom: 3px;
 .mainhebergement .star{
 color: #0065fc;
 font-size: small;
-    padding-bottom: 5px;
-    align-self: flex-end;
-    }
+padding-bottom: 5px;
+align-self: flex-end;
+}
 .starGris{
  color: #F2F2F2;
 }
 .texteH{
-font-size: 1em;
-margin-top: 5px;
-margin-bottom: 0px;
+font-size: x-large;
+margin-top: 50px;
 }
 .texteP{
 margin-top: 0px;
