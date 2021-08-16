@@ -159,6 +159,7 @@ margin-top: 0;
 .titreA{
 padding-right: 30px;
 font-size: 1.1em;
+text-align: left;
 }
 
 .titre i{
@@ -218,7 +219,9 @@ display: grid;
 background-color: #fff;
 border-radius: 10px;
 cursor: pointer;
-box-shadow: 10px 5px 5px;
+box-shadow:  10px 5px 5px;
+overflow: hidden;
+
 }
 .hebergement div.mainhebergement article figure{	
 margin: 5px;
@@ -289,6 +292,7 @@ align-self: flex-end;
 .texteH{
 font-size: x-large;
 margin-top: 50px;
+font-weight: bo;
 }
 .texteP{
 margin-top: 0px;
