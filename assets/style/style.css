@@ -416,7 +416,7 @@ padding-left: 0;
     display: none;
 }
 .section.recherche{
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .fomDeRecherche{
     display: flex;
