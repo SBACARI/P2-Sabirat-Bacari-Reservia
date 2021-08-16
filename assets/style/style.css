@@ -89,7 +89,9 @@ font-size: 1rem;
 cursor: pointer;
 padding: 1rem 1.25rem;
 }	
-
+.submitButton i{
+    display: none;
+}
 input {
 border-right: none;
 border-left: none;
@@ -391,7 +393,10 @@ padding-left: 0;
 }
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 767px) {
+    header{
+        display: grid;
+    }
     .hebergement{
         flex-direction: column-reverse;
     
@@ -402,6 +407,18 @@ padding-left: 0;
     #logo{
         position: absolute;
         margin: 15px;
+}
+.submitButton i{
+    display: block;
+}
+.submitButton b{
+    display: none;
+}
+.section.recherche{
+    margin-top: 10px;
+}
+.fomDeRecherche{
+    display: flex;
 }
     nav{
         display: flex;
