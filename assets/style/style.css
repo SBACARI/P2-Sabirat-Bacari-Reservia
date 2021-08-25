@@ -8,12 +8,12 @@ body {
     max-width: 100%;
     }
     .hebergementArticle:hover {
-        -webkit-box-shadow: 0px 2px 14px -1px #000000; 
-        box-shadow: 0px 2px 14px -1px #000000;
+    -webkit-box-shadow: 0px 2px 14px -1px #000000; 
+    box-shadow: 0px 2px 14px -1px #000000;
     }
     .hebergementArticle {
-        -webkit-box-shadow: 0px 2px 8px -1px #000000; 
-        box-shadow: 0px 2px 8px -1px #000000;
+    -webkit-box-shadow: 0px 2px 8px -1px #000000; 
+    box-shadow: 0px 2px 8px -1px #000000;
     }
     #logo {
         max-width: 120px;
@@ -212,22 +212,22 @@ body {
     .hebergement div.mainhebergement article {
     box-shadow: 0px 2px 8px -1px #000000;
     background-color: #fff;
-    padding-right: 5px;
     border-radius: 25px;
+    border: 5px solid white;
     margin-bottom: 20px;
     margin-top: 20px;
     cursor: pointer;
     overflow: hidden;
+    position: relative;
     }
     
     .hebergement div.mainhebergement article figure{	
-    margin: 5px;
+    margin: 0px;
     }
     .hebergement div.mainhebergement article figure a img{
     justify-content: center;
-    border-radius: 15px 15px 0px 0px;
     width: 100%;
-    height: 110px;
+    height: 160px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -247,20 +247,30 @@ body {
     .hebergement2 .hebergementArticle{
     display: flex;
     flex: 1;
+    height: 160px;
     background-color: #fff;
     padding-right: 5px;
     border-radius: 25px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
     overflow: hidden;
     border: 4px solid white;
     
     }
-    
+    figcaption{
+      padding: 3px 5px;  
+      min-height: 80px;
+    }
+    figcaption p{
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .illustration{
+    width: 230px;
+    }
     .hebergementArticle div.illustration img{
-        width: 150px;
-        height: 140px;
-        max-width: 150px;
+    width: 100%;
+    height: 100%;
     }
     .hebergementArticle div.caption{
     align-items: center;
@@ -270,12 +280,15 @@ body {
     cursor: pointer;
     position: relative;
     }
+    .hebergement-h3{
+    margin: 5px 0;
+    }
     .hebergement2 .star{
     color: #0065fc;
     font-size: small;
     padding-bottom: 5px;
     align-self: flex-end;
-    /*position: absolute;*/
+    position: absolute;
     bottom: 3px;
     }
     .mainhebergement .star{
@@ -283,13 +296,17 @@ body {
     font-size: small;
     padding-bottom: 5px;
     align-self: flex-end;
+    position: absolute;
+    bottom: 3px;
+    left: 5px;
     }
     .starGris{
      color: #F2F2F2;
+     position: absolute;
     }
     .texteH{
     font-size: x-large;
-    margin-top: 50px;
+    margin-top: 20px;
     font-weight: bold;
     }
     .texteP{
