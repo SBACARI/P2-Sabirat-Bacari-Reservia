@@ -43,10 +43,11 @@ body {
     }
     nav ul li  {
     padding: 2rem;
+    border-top: 2px solid white;
     }
     
     section {
-    margin: 4rem 0;
+    margin: 2rem 0;
     }
     .navInscrire{
     color: #0065FC;
@@ -89,6 +90,7 @@ body {
     cursor: pointer;
     padding: 1rem 1.25rem;
     margin-top: 0px;
+    margin-left: -5px;
     }	
     .submitButton i{
     display: none;
@@ -362,12 +364,15 @@ body {
     }  
     .item:nth-child(3) {
     grid-area: b;
+    height: calc(100% - 40px);
+    margin-top: 36px;
     }  
     .item:nth-child(4) {
     grid-area: c;
     }
     .item:nth-child(5) {
     grid-area: d;
+    height: calc(100% - 36px);
     }
     .item:nth-child(6) {
     grid-area: e;
@@ -380,13 +385,13 @@ body {
     max-height: 190px;
     }  
     .item:nth-child(3) img{
-    max-height: 190px;
+    max-height: 150px;
     }  
     .item:nth-child(4) img{
     max-height: 480px;
     }
     .item:nth-child(5) img{
-    max-height: 190px;
+    max-height: 160px;
     }
     .item:nth-child(6) img{
     max-height: 190px;
