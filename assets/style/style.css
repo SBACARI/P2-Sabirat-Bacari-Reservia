@@ -4,7 +4,7 @@ body {
     }
     
     img{
-        width: 100%;
+     width: 100%;
     max-width: 100%;
     }
     .hebergementArticle:hover {
@@ -513,4 +513,10 @@ body {
                 flex-direction: column;
             }
      }
+     @media only screen and (min-width: 1024px) and (max-width: 1200px){ 
+        .hebergement div.mainhebergement {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: ". .";
+        }
+        }
         
