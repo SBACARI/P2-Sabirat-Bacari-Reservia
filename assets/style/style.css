@@ -88,7 +88,6 @@ body {
     font-size: 1rem;
     cursor: pointer;
     padding: 1rem 1.25rem;
-    margin-bottom: 5px;
     margin-top: 0px;
     }	
     .submitButton i{
@@ -478,6 +477,7 @@ body {
             border-bottom: 3px solid #f2f2f2;
             position: relative;
             width: 100%;
+            padding-bottom: 0px;
         }
         nav ul .nav-link{
             width: 50%;
@@ -506,7 +506,7 @@ body {
                 flex-direction: column;
             }
             .item a img{
-                height: 380px;
+                height: 180px;
                 max-height: 420px;
             }
             footer .footerContainer{
